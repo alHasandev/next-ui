@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Drawer show={showSidebar}>
+      <Drawer show={showSidebar} static>
         <Sidebar
           header={
             profile && {
